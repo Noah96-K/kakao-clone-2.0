@@ -11,3 +11,12 @@
   opacity: 0.6;
   margin-bottom: 12px;
 }
+
+.friend:hover {
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  color: lemonchiffon;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-image: linear-gradient(to left, #4ecdc4, #556270);
+}

@@ -41,9 +41,9 @@
 }
 .chat__icon-left {
   position: absolute;
-  lef: 10px;
+  left: 10px;
 }
-chat__icon-right {
+.chat__icon-right {
   position: absolute;
   right: 10px;
 }
@@ -75,6 +75,7 @@ chat__icon-right {
 .chat__write {
   bottom: 0px;
   width: 100%;
+
   margin: 0 auto;
   border-radius: 0;
   padding: 20px 60px;
@@ -215,4 +216,15 @@ chat__icon-right {
 }
 .sent-message {
   animation: sentAnimation 1s ease-out forwards;
+}
+.chat__icon {
+  display: flex;
+}
+.chat:hover {
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  color: lemonchiffon;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-image: linear-gradient(to left, #4ecdc4, #556270);
 }
